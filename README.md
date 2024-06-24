@@ -39,3 +39,10 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Install tailwind with Vue 3
+
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
