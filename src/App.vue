@@ -1,3 +1,8 @@
 <template>
-  <h1 class="text-red-500">Hello Vue</h1>
+  <nav-menu></nav-menu>
+  
 </template>
+
+<script setup>
+import NavMenu from './components/NavMenu.vue'
+</script>

@@ -7,6 +7,15 @@ export default {
     extend: {
       fontFamily: {
         sans: ['OPEN Sans', ...defaultTheme.fontFamily.sans]
+      },
+      colors: {
+        brandBlue: {
+          1: '#1a73e8'
+        },
+
+      },
+      boxShadow: {
+        blue: '1 1 3px 3px #4285f4'
       }
     }
   },
